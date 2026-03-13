@@ -1,4 +1,8 @@
 #include <stdio.h>
 main(){
-  printf("Proba - treba posle obrisati ! ! !");
+  int a,b,c;
+  printf("Uneti prva dva broja: ");
+  scanf_s("%d %d",&a,&b);
+  c = a + b;
+  printf("Zbir %d i %d = %d",a,b,c); 
 }
